@@ -1,0 +1,30 @@
+{
+  "id": "alzheimers-research-care-operations-hub-merged",
+  "title": "Alzheimers Research Care Operations Hub App",
+  "industry": "Healthcare & Life Sciences",
+  "industryId": "healthcare-life-sciences",
+  "specialization": "Alzheimers Research Care Operations Hub",
+  "sourcePlatformGroup": "pharma-biotech-research-platform",
+  "sources": [
+    "AIClinicalTrialMatching",
+    "AIResearchLiteratureAgent",
+    "ai-personalized-medicine",
+    "alzheimers-research-care-operations-hub"
+  ],
+  "featureCount": 168,
+  "candidateFeatureCount": 249,
+  "eliminatedSimilarFeatures": 81,
+  "evidenceCount": 309,
+  "aiPageCount": 0,
+  "sourceAIPageCount": 0,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 2,
+    "seededTables": 15,
+    "seededRows": 246
+  },
+  "visibleFeatureCount": 15,
+  "featureVisibilityMode": "seeded-or-ai"
+}

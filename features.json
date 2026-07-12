@@ -1,0 +1,5471 @@
+[
+  {
+    "name": "AI Agents",
+    "canonicalKey": "agent ai",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/components/Sidebar.js:7",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Active",
+    "canonicalKey": "active",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/patient/:id/active"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/consents.js:97",
+        "route": "/patient/:id/active",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Adverse Event Signals",
+    "canonicalKey": "adverse event signal",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/AdverseEventSignals",
+      "/adverse-event-signals"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:103",
+        "route": "/adverse-event-signals",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:40",
+        "route": "/adverse-event-signals",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/AdverseEventSignals.tsx",
+        "route": "/AdverseEventSignals",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Adverse Event Warning",
+    "canonicalKey": "adverse event warning",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/adverse-event-warning"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/ai.js:209",
+        "route": "/adverse-event-warning",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Adverse Events Page",
+    "canonicalKey": "adverse events",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/AdverseEventsPage"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/AdverseEventsPage.js",
+        "route": "/AdverseEventsPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Analyze Adverse Events",
+    "canonicalKey": "adverse analyze event",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/analyze-adverse-events"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/ai.js:175",
+        "route": "/analyze-adverse-events",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Analyze Biomarkers",
+    "canonicalKey": "analyze biomarker",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/analyze-biomarkers"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/ai.js:93",
+        "route": "/analyze-biomarkers",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Analyze Protocol",
+    "canonicalKey": "analyze protocol",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/analyze-protocol"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/ai.js:153",
+        "route": "/analyze-protocol",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Ar Xiv Pub Med Search",
+    "canonicalKey": "ar med pub search xiv",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/components/Sidebar.js:10",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Bib Te X Export",
+    "canonicalKey": "bib export te x",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/components/Sidebar.js:11",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Biomarker Heatmap",
+    "canonicalKey": "biomarker heatmap",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/biomarker-heatmap"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/customViews.js:34",
+        "route": "/biomarker-heatmap",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Biomarker Pattern",
+    "canonicalKey": "biomarker pattern",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/biomarker-pattern"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/ai.js:167",
+        "route": "/biomarker-pattern",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Biomarker Trend",
+    "canonicalKey": "biomarker trend",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/biomarker-trend"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/aiAdvanced.js:188",
+        "route": "/biomarker-trend",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Biomarkers",
+    "canonicalKey": "biomarker",
+    "aliases": [
+      "Biomarkers Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/BiomarkersPage",
+      "/biomarkers"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:149",
+        "route": "/biomarkers",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:45",
+        "route": "/biomarkers",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/Dashboard.js:42",
+        "route": "/biomarkers",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/BiomarkersPage.js",
+        "route": "/BiomarkersPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Cf Automated Literature Review Generation",
+    "canonicalKey": "automated cf generation literature review",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfAutomatedLiteratureReviewGeneration"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/CfAutomatedLiteratureReviewGeneration.jsx",
+        "route": "/CfAutomatedLiteratureReviewGeneration",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Cf Citation Network Visualization",
+    "canonicalKey": "cf citation network visualization",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfCitationNetworkVisualization"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/CfCitationNetworkVisualization.jsx",
+        "route": "/CfCitationNetworkVisualization",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Cf Collaborative Annotation Insights",
+    "canonicalKey": "annotation cf collaborative insight",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfCollaborativeAnnotationInsights"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/CfCollaborativeAnnotationInsights.jsx",
+        "route": "/CfCollaborativeAnnotationInsights",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Cf Hypothesisdriven Paper Discovery",
+    "canonicalKey": "cf discovery hypothesisdriven paper",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfHypothesisdrivenPaperDiscovery"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/CfHypothesisdrivenPaperDiscovery.jsx",
+        "route": "/CfHypothesisdrivenPaperDiscovery",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Cf Keyword Extraction Taxonomy",
+    "canonicalKey": "cf extraction keyword taxonomy",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfKeywordExtractionTaxonomy"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/CfKeywordExtractionTaxonomy.jsx",
+        "route": "/CfKeywordExtractionTaxonomy",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Cf Longitudinal Twin",
+    "canonicalKey": "cf longitudinal twin",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfLongitudinalTwin"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/CfLongitudinalTwin.tsx",
+        "route": "/CfLongitudinalTwin",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Cf Methodology Assessment",
+    "canonicalKey": "assessment cf methodology",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfMethodologyAssessment"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/CfMethodologyAssessment.jsx",
+        "route": "/CfMethodologyAssessment",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Cf Mrna N Of1",
+    "canonicalKey": "cf mrna n of1",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfMrnaNOf1"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/CfMrnaNOf1.tsx",
+        "route": "/CfMrnaNOf1",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Cf Pharmacogenomics",
+    "canonicalKey": "cf pharmacogenomic",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfPharmacogenomics"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/CfPharmacogenomics.tsx",
+        "route": "/CfPharmacogenomics",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Cf Trial Autofill",
+    "canonicalKey": "autofill cf trial",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfTrialAutofill"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/CfTrialAutofill.tsx",
+        "route": "/CfTrialAutofill",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Cf Wearable Fusion",
+    "canonicalKey": "cf fusion wearable",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfWearableFusion"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/CfWearableFusion.tsx",
+        "route": "/CfWearableFusion",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Citation Cooccurrence",
+    "canonicalKey": "citation cooccurrence",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/citation-cooccurrence"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/routes/customViews.js:48",
+        "route": "/citation-cooccurrence",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Citation Graph",
+    "canonicalKey": "citation graph",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/citation-graph"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/routes/agents.js:144",
+        "route": "/citation-graph",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Citation Network",
+    "canonicalKey": "citation network",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/components/Sidebar.js:12",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Classify",
+    "canonicalKey": "classify",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/classify"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/variant-acmg.js:155",
+        "route": "/classify",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Clinician Roles",
+    "canonicalKey": "clinician role",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap/clinician-roles"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:93",
+        "route": "/gap/clinician-roles",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:30",
+        "route": "/gap/clinician-roles",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Cohort Analysis",
+    "canonicalKey": "analysis cohort",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/cohort-analysis"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/aiNew.js:57",
+        "route": "/cohort-analysis",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Collab Editing",
+    "canonicalKey": "collab editing",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/components/Sidebar.js:22",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Collections Page",
+    "canonicalKey": "collections",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CollectionsPage"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/CollectionsPage.js",
+        "route": "/CollectionsPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Completions",
+    "canonicalKey": "completion",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/api/v1/chat/completions"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching",
+      "AIDrugInteractionChecker",
+      "AIElderCareCompanion",
+      "AIMedicalDeviceComplianceManager",
+      "AIMentalHealthCompanion",
+      "AIPathologySlideAnalyzer",
+      "AIPatientTriageforER",
+      "AIPharmacyOperationsManager",
+      "AIPhysicalTherapyMovementAnalyzer",
+      "AIRadiologyReportGenerator",
+      "alzheimers-research-care-operations-hub",
+      "tetrascience"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
+      "healthcare-life-sciences/ambulance-ems-dispatch",
+      "healthcare-life-sciences/elder-care-companion",
+      "healthcare-life-sciences/hipaa-training-compliance-auditor",
+      "healthcare-life-sciences/industrial-io-t-anomaly-detector",
+      "healthcare-life-sciences/patient-triagefor-er",
+      "healthcare-life-sciences/pharmacy-operations-manager",
+      "healthcare-life-sciences/physical-therapy-movement-analyzer"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/ai.js:19",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPatientTriageforER",
+        "path": "backend/services/openrouter.js:25",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDrugInteractionChecker",
+        "path": "backend/src/middleware/openrouter.js:27",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/openrouter.js:118",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/openrouter.js:21",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIRadiologyReportGenerator",
+        "path": "server/routes/ai.js:89",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "tetrascience",
+        "path": "backend/src/services/openrouter.ts:45",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/ai.js:18",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/aiAdvanced.js:40",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/aiNew.js:23",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/outcomePredictor.js:41",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/regulatoryAgent.js:41",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/siteNetworkOptimizer.js:41",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/trialPlatformIntegrations.js:41",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "alzheimers-research-care-operations-hub",
+        "path": "server.js:452",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/services/openrouter.js:22",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/cbt-dbt-agent.js:29",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/companion-agent-24-7.js:29",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/mood-anomaly-stream.js:29",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/peer-support-orchestration.js:29",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/voice-therapy-access.js:29",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "backend/routes/patients.js:246",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMedicalDeviceComplianceManager",
+        "path": "server/routes/audit-anomaly-stream.js:29",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMedicalDeviceComplianceManager",
+        "path": "server/routes/capa-autonomous.js:29",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMedicalDeviceComplianceManager",
+        "path": "server/routes/regulatory-advisor-agent.js:29",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMedicalDeviceComplianceManager",
+        "path": "server/routes/regulatory-intel-agent.js:29",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMedicalDeviceComplianceManager",
+        "path": "server/routes/vision-document-verify.js:29",
+        "route": "/api/v1/chat/completions",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      }
+    ]
+  },
+  {
+    "name": "Connect",
+    "canonicalKey": "connect",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/connect"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/edcCtmsIntegrations.js:52",
+        "route": "/connect",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/ehrIntegrations.js:56",
+        "route": "/connect",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Consent Management",
+    "canonicalKey": "consent",
+    "aliases": [
+      "Consents",
+      "Consents Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ConsentsPage",
+      "/consents",
+      "/gap/consent-management"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:92",
+        "route": "/gap/consent-management",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:29",
+        "route": "/gap/consent-management",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:101",
+        "route": "/consents",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:38",
+        "route": "/consents",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/ConsentsPage.tsx",
+        "route": "/ConsentsPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Consent Simplifier",
+    "canonicalKey": "consent simplifier",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/consent-simplifier"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/aiNew.js:322",
+        "route": "/consent-simplifier",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Criteria Heatmap",
+    "canonicalKey": "criteria heatmap",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/criteria-heatmap"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/customViews.js:154",
+        "route": "/criteria-heatmap",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Diplotypes",
+    "canonicalKey": "diplotype",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/diplotypes"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/pgx-cpic.js:34",
+        "route": "/diplotypes",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/pgx-cpic.js:58",
+        "route": "/diplotypes",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Doi Lookup",
+    "canonicalKey": "doi lookup",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/doi-lookup"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/routes/agents.js:67",
+        "route": "/doi-lookup",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Dose Personalizer",
+    "canonicalKey": "dose personalizer",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap/dose-personalizer"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:84",
+        "route": "/gap/dose-personalizer",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:21",
+        "route": "/gap/dose-personalizer",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Dose Response",
+    "canonicalKey": "dose response",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/dose-response"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/customViews.js:71",
+        "route": "/dose-response",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Drug Interactions",
+    "canonicalKey": "drug interaction",
+    "aliases": [
+      "Drug Interaction",
+      "Drug Interactions Page"
+    ],
+    "kinds": [
+      "api",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/DrugInteractionsPage",
+      "/ai/drug-interaction",
+      "/dashboard/ai/drug-interactions",
+      "/drug-interaction",
+      "/drug-interactions"
+    ],
+    "sourceProjects": [
+      "AIAcceleratedrug",
+      "AIAmbulanceEMSDispatch",
+      "AIClinicalTrialMatching",
+      "AIPharmacyOperationsManager",
+      "AIPredictdisease",
+      "ai-personalized-medicine",
+      "healthcare"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug",
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
+      "healthcare-life-sciences/ambulance-ems-dispatch",
+      "healthcare-life-sciences/hipaa-training-compliance-auditor",
+      "healthcare-life-sciences/patient-triagefor-er",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/aiAdvanced.js:26",
+        "route": "/drug-interactions",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:124",
+        "route": "/drug-interactions",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPredictdisease",
+        "path": "backend/src/routes/ai.js:485",
+        "route": "/drug-interactions",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPredictdisease",
+        "path": "frontend/src/App.jsx:74",
+        "route": "/drug-interactions",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPredictdisease",
+        "path": "frontend/src/components/Navbar.jsx:19",
+        "route": "/drug-interactions",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPredictdisease",
+        "path": "frontend/src/pages/Dashboard.jsx:113",
+        "route": "/drug-interactions",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAmbulanceEMSDispatch",
+        "path": "server/routes/ai.js:863",
+        "route": "/drug-interaction",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAmbulanceEMSDispatch",
+        "path": "client/src/App.jsx:235",
+        "route": "/ai/drug-interaction",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:150",
+        "route": "/drug-interactions",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:46",
+        "route": "/drug-interactions",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/Dashboard.js:43",
+        "route": "/drug-interactions",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/ai.js:124",
+        "route": "/drug-interaction",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "backend/src/routes/ai.js:400",
+        "route": "/drug-interaction",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "frontend/src/components/Layout.jsx:27",
+        "route": "/drug-interactions",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "frontend/src/pages/Dashboard.jsx:17",
+        "route": "/drug-interactions",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "healthcare",
+        "path": "src/components/layout/Sidebar.tsx:122",
+        "route": "",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "healthcare",
+        "path": "src/app/dashboard/ai/drug-interactions/page.tsx",
+        "route": "/dashboard/ai/drug-interactions",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/DrugInteractionsPage.js",
+        "route": "/DrugInteractionsPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Ehr Summarize",
+    "canonicalKey": "ehr summarize",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap/ehr-summarize"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:87",
+        "route": "/gap/ehr-summarize",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:24",
+        "route": "/gap/ehr-summarize",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Eligibility",
+    "canonicalKey": "eligibility",
+    "aliases": [
+      "Eligibility Page"
+    ],
+    "kinds": [
+      "api",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/EligibilityPage",
+      "/ai/eligibility",
+      "/dashboard/billing/eligibility",
+      "/eligibility"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter",
+      "AIClinicalTrialMatching",
+      "healthcare"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
+      "healthcare-life-sciences/hipaa-training-compliance-auditor",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "backend/routes/ai.js:38",
+        "route": "/eligibility",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/App.js:114",
+        "route": "/ai/eligibility",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/Dashboard.js:27",
+        "route": "/ai/eligibility",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:143",
+        "route": "/eligibility",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:39",
+        "route": "/eligibility",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/Dashboard.js:37",
+        "route": "/eligibility",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/EligibilityPage.js",
+        "route": "/EligibilityPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "healthcare",
+        "path": "src/components/layout/Sidebar.tsx:78",
+        "route": "",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "healthcare",
+        "path": "src/app/dashboard/billing/eligibility/page.tsx",
+        "route": "/dashboard/billing/eligibility",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      }
+    ]
+  },
+  {
+    "name": "Eligibility Check",
+    "canonicalKey": "check eligibility",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/eligibility-check"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/patients.js:76",
+        "route": "/:id/eligibility-check",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Eligibility Criteria",
+    "canonicalKey": "criteria eligibility",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/eligibility-criteria"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/customViews.js:379",
+        "route": "/eligibility-criteria",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/customViews.js:416",
+        "route": "/eligibility-criteria",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Enrollment Funnel",
+    "canonicalKey": "enrollment funnel",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/enrollment-funnel"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/customViews.js:81",
+        "route": "/enrollment-funnel",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Enrollment Summary",
+    "canonicalKey": "enrollment summary",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/enrollment-summary"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/reports.js:82",
+        "route": "/enrollment-summary",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Enrollments",
+    "canonicalKey": "enrollment",
+    "aliases": [
+      "Enrollments Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/EnrollmentsPage",
+      "/enrollments"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:145",
+        "route": "/enrollments",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:41",
+        "route": "/enrollments",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/Dashboard.js:39",
+        "route": "/enrollments",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/EnrollmentsPage.js",
+        "route": "/EnrollmentsPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Fhir Connector",
+    "canonicalKey": "connector fhir",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap/fhir-connector"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:90",
+        "route": "/gap/fhir-connector",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:27",
+        "route": "/gap/fhir-connector",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Field Access Log",
+    "canonicalKey": "access field log",
+    "aliases": [
+      "Field Access Log Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/FieldAccessLogPage",
+      "/field-access-log"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:102",
+        "route": "/field-access-log",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:39",
+        "route": "/field-access-log",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/FieldAccessLogPage.tsx",
+        "route": "/FieldAccessLogPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Filter Rules",
+    "canonicalKey": "filter rule",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/filter-rules"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/routes/customViews.js:137",
+        "route": "/filter-rules",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/routes/customViews.js:140",
+        "route": "/filter-rules",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap Clinician Roles",
+    "canonicalKey": "clinician gap role",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapClinicianRoles"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/GapClinicianRoles.tsx",
+        "route": "/GapClinicianRoles",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap Consent Management",
+    "canonicalKey": "consent gap",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapConsentManagement"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/GapConsentManagement.tsx",
+        "route": "/GapConsentManagement",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap Dose Personalizer",
+    "canonicalKey": "dose gap personalizer",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapDosePersonalizer"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/GapDosePersonalizer.tsx",
+        "route": "/GapDosePersonalizer",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap Ehr Summarize",
+    "canonicalKey": "ehr gap summarize",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapEhrSummarize"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/GapEhrSummarize.tsx",
+        "route": "/GapEhrSummarize",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap Fhir Connector",
+    "canonicalKey": "connector fhir gap",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapFhirConnector"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/GapFhirConnector.tsx",
+        "route": "/GapFhirConnector",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap Finder",
+    "canonicalKey": "finder gap",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/components/Sidebar.js:13",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap Genome Therapy Designer",
+    "canonicalKey": "designer gap genome therapy",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapGenomeTherapyDesigner"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/GapGenomeTherapyDesigner.tsx",
+        "route": "/GapGenomeTherapyDesigner",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap Hipaa Audit",
+    "canonicalKey": "audit gap hipaa",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapHipaaAudit"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/GapHipaaAudit.tsx",
+        "route": "/GapHipaaAudit",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap Lab Trend Detector",
+    "canonicalKey": "detector gap lab trend",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapLabTrendDetector"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/GapLabTrendDetector.tsx",
+        "route": "/GapLabTrendDetector",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Arxivpubmedgoogle Scholar API Integration",
+    "canonicalKey": "api arxivpubmedgoogle gap integration no scholar",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoArxivpubmedgoogleScholarApiIntegration"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/GapNoArxivpubmedgoogleScholarApiIntegration.jsx",
+        "route": "/GapNoArxivpubmedgoogleScholarApiIntegration",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Bibtexzotero Citation Export",
+    "canonicalKey": "bibtexzotero citation export gap no",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoBibtexzoteroCitationExport"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/GapNoBibtexzoteroCitationExport.jsx",
+        "route": "/GapNoBibtexzoteroCitationExport",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Citationnetworkanalysis Graph Influence",
+    "canonicalKey": "citationnetworkanalysis gap graph influence no",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoCitationnetworkanalysisGraphInfluence"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/GapNoCitationnetworkanalysisGraphInfluence.jsx",
+        "route": "/GapNoCitationnetworkanalysisGraphInfluence",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Gapfinder Unanswered Questions",
+    "canonicalKey": "gap gapfinder no question unanswered",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoGapfinderUnansweredQuestions"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/GapNoGapfinderUnansweredQuestions.jsx",
+        "route": "/GapNoGapfinderUnansweredQuestions",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Highlightannotation Tool",
+    "canonicalKey": "gap highlightannotation no",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoHighlightannotationTool"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/GapNoHighlightannotationTool.jsx",
+        "route": "/GapNoHighlightannotationTool",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Literaturereviewgenerator Multipaper Synt",
+    "canonicalKey": "gap literaturereviewgenerator multipaper no synt",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoLiteraturereviewgeneratorMultipaperSynt"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/GapNoLiteraturereviewgeneratorMultipaperSynt.jsx",
+        "route": "/GapNoLiteraturereviewgeneratorMultipaperSynt",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Methodologycomparison",
+    "canonicalKey": "gap methodologycomparison no",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoMethodologycomparison"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/GapNoMethodologycomparison.jsx",
+        "route": "/GapNoMethodologycomparison",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Notifications For New Matching Papers",
+    "canonicalKey": "for gap matching no notifications paper",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoNotificationsForNewMatchingPapers"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/GapNoNotificationsForNewMatchingPapers.jsx",
+        "route": "/GapNoNotificationsForNewMatchingPapers",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Paperrecommender",
+    "canonicalKey": "gap no paperrecommender",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoPaperrecommender"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/GapNoPaperrecommender.jsx",
+        "route": "/GapNoPaperrecommender",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Papersummarizer Abstract Key Findings",
+    "canonicalKey": "abstract finding gap key no papersummarizer",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoPapersummarizerAbstractKeyFindings"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/GapNoPapersummarizerAbstractKeyFindings.jsx",
+        "route": "/GapNoPapersummarizerAbstractKeyFindings",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Pdf Ingestionparsing Pipeline",
+    "canonicalKey": "gap ingestionparsing no pdf pipeline",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoPdfIngestionparsingPipeline"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/GapNoPdfIngestionparsingPipeline.jsx",
+        "route": "/GapNoPdfIngestionparsingPipeline",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Quality Scoring Grade Methodology Rigor",
+    "canonicalKey": "gap grade methodology no quality rigor scoring",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoQualityScoringGradeMethodologyRigor"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/GapNoQualityScoringGradeMethodologyRigor.jsx",
+        "route": "/GapNoQualityScoringGradeMethodologyRigor",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Realtime Collaborative Editing",
+    "canonicalKey": "collaborative editing gap no realtime",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoRealtimeCollaborativeEditing"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/GapNoRealtimeCollaborativeEditing.jsx",
+        "route": "/GapNoRealtimeCollaborativeEditing",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap Wearable Stream Analyzer",
+    "canonicalKey": "analyzer gap stream wearable",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapWearableStreamAnalyzer"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/GapWearableStreamAnalyzer.tsx",
+        "route": "/GapWearableStreamAnalyzer",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gap Wearables Integration",
+    "canonicalKey": "gap integration wearables",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapWearablesIntegration"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/GapWearablesIntegration.tsx",
+        "route": "/GapWearablesIntegration",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Gene",
+    "canonicalKey": "gene",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/rules/:gene"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/pgx-cpic.js:80",
+        "route": "/rules/:gene",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Generate Review",
+    "canonicalKey": "generate review",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/generate-review"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/routes/agents.js:28",
+        "route": "/generate-review",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Genome Markers",
+    "canonicalKey": "genome marker",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/genome-markers"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:68",
+        "route": "/genome-markers",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:8",
+        "route": "/genome-markers",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Genome Therapy Designer",
+    "canonicalKey": "designer genome therapy",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap/genome-therapy-designer"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:86",
+        "route": "/gap/genome-therapy-designer",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:23",
+        "route": "/gap/genome-therapy-designer",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Genomic Insights",
+    "canonicalKey": "genomic insight",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/genomic-insights"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/ai.js:62",
+        "route": "/genomic-insights",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Genomic Report",
+    "canonicalKey": "genomic report",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/genomic-report"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/customViews.js:108",
+        "route": "/genomic-report",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Glossary",
+    "canonicalKey": "glossary",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/criteria/glossary"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/variant-acmg.js:91",
+        "route": "/criteria/glossary",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Health Records",
+    "canonicalKey": "health record",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/health-records"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:67",
+        "route": "/health-records",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:7",
+        "route": "/health-records",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Highlight Annotate",
+    "canonicalKey": "annotate highlight",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/components/Sidebar.js:14",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Hipaa Audit",
+    "canonicalKey": "audit hipaa",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap/hipaa-audit"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:91",
+        "route": "/gap/hipaa-audit",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:28",
+        "route": "/gap/hipaa-audit",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Identify Gaps",
+    "canonicalKey": "gaps identify",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/identify-gaps"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/routes/agents.js:21",
+        "route": "/identify-gaps",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Integrations With Medidata Rave Edc Veeva Vault Ct Page",
+    "canonicalKey": "ct edc integrations medidata rave vault veeva with",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/IntegrationsWithMedidataRaveEdcVeevaVaultCtPage"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/IntegrationsWithMedidataRaveEdcVeevaVaultCtPage.js",
+        "route": "/IntegrationsWithMedidataRaveEdcVeevaVaultCtPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Keyword Taxonomy",
+    "canonicalKey": "keyword taxonomy",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/keyword-taxonomy"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/routes/agents.js:166",
+        "route": "/keyword-taxonomy",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Lab Trend Detector",
+    "canonicalKey": "detector lab trend",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap/lab-trend-detector"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:83",
+        "route": "/gap/lab-trend-detector",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:20",
+        "route": "/gap/lab-trend-detector",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Leaderboard",
+    "canonicalKey": "leaderboard",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/leaderboard"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/prs.js:173",
+        "route": "/leaderboard",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Lit Views",
+    "canonicalKey": "lit",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/components/Sidebar.js:9",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Literature Review Pdf",
+    "canonicalKey": "literature pdf review",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/literature-review-pdf"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/routes/customViews.js:78",
+        "route": "/literature-review-pdf",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Logs",
+    "canonicalKey": "logs",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/logs",
+      "/logs"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching",
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/edcCtmsIntegrations.js:151",
+        "route": "/:id/logs",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/ehrIntegrations.js:141",
+        "route": "/:id/logs",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/routes/agents.js:188",
+        "route": "/logs",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Longitudinal Twin",
+    "canonicalKey": "longitudinal twin",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/cf/longitudinal-twin"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:99",
+        "route": "/cf/longitudinal-twin",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:36",
+        "route": "/cf/longitudinal-twin",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Match Custom",
+    "canonicalKey": "custom match",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/match-custom"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/trial-matcher.js:206",
+        "route": "/match-custom",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Match Patient",
+    "canonicalKey": "match patient",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/match-patient"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/ai.js:46",
+        "route": "/match-patient",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Matches",
+    "canonicalKey": "matche",
+    "aliases": [
+      "Matches Page"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/MatchesPage",
+      "/export/matches",
+      "/matches"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/reports.js:183",
+        "route": "/export/matches",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:141",
+        "route": "/matches",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:37",
+        "route": "/matches",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/Dashboard.js:36",
+        "route": "/matches",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/MatchesPage.js",
+        "route": "/MatchesPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Methodology Compare",
+    "canonicalKey": "compare methodology",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/components/Sidebar.js:16",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Methodology Comparison",
+    "canonicalKey": "comparison methodology",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/methodology-comparison"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/routes/agents.js:107",
+        "route": "/methodology-comparison",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Mrna N Of 1",
+    "canonicalKey": "1 mrna n of",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/cf/mrna-n-of-1"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:95",
+        "route": "/cf/mrna-n-of-1",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:32",
+        "route": "/cf/mrna-n-of-1",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Multi Paper Review",
+    "canonicalKey": "multi paper review",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/components/Sidebar.js:15",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Multi Trial Cohort",
+    "canonicalKey": "cohort multi trial",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/multi-trial-cohort"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/aiAdvanced.js:384",
+        "route": "/multi-trial-cohort",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Nct Id",
+    "canonicalKey": "id nct",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/trials/:nct_id"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/trial-matcher.js:51",
+        "route": "/trials/:nct_id",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "New Agents",
+    "canonicalKey": "agent",
+    "aliases": [
+      "Agents Page",
+      "New Agents Page"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/AgentsPage",
+      "/NewAgentsPage"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/components/Sidebar.js:8",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/AgentsPage.js",
+        "route": "/AgentsPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/NewAgentsPage.js",
+        "route": "/NewAgentsPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "No AI Digital Twin Synthetic Control Arm Page",
+    "canonicalKey": "ai arm control digital no synthetic twin",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NoAiDigitalTwinSyntheticControlArmPage"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/NoAiDigitalTwinSyntheticControlArmPage.js",
+        "route": "/NoAiDigitalTwinSyntheticControlArmPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "No AI Emr To Protocol Matcher Only Manual Screenin Page",
+    "canonicalKey": "ai emr manual matcher no only protocol screenin to",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NoAiEmrToProtocolMatcherOnlyManualScreeninPage"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/NoAiEmrToProtocolMatcherOnlyManualScreeninPage.js",
+        "route": "/NoAiEmrToProtocolMatcherOnlyManualScreeninPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "No AI Investigator Brochure Summarization Page",
+    "canonicalKey": "ai brochure investigator no summarization",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NoAiInvestigatorBrochureSummarizationPage"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/NoAiInvestigatorBrochureSummarizationPage.js",
+        "route": "/NoAiInvestigatorBrochureSummarizationPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "No AI Patient Friendly Consent Form Generator Page",
+    "canonicalKey": "ai consent form friendly generator no patient",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NoAiPatientFriendlyConsentFormGeneratorPage"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/NoAiPatientFriendlyConsentFormGeneratorPage.js",
+        "route": "/NoAiPatientFriendlyConsentFormGeneratorPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "No Direct Edc Ctms Ehr API Client Medidata Veeva E Page",
+    "canonicalKey": "api client ctms direct e edc ehr medidata no veeva",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NoDirectEdcCtmsEhrApiClientMedidataVeevaEPage"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/NoDirectEdcCtmsEhrApiClientMedidataVeevaEPage.js",
+        "route": "/NoDirectEdcCtmsEhrApiClientMedidataVeevaEPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "No E Consent Module With Audit Trail Page",
+    "canonicalKey": "audit consent e no trail with",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NoEConsentModuleWithAuditTrailPage"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/NoEConsentModuleWithAuditTrailPage.js",
+        "route": "/NoEConsentModuleWithAuditTrailPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "No Patient Engagement Portal With Rewards Page",
+    "canonicalKey": "engagement no patient portal rewards with",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NoPatientEngagementPortalWithRewardsPage"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/NoPatientEngagementPortalWithRewardsPage.js",
+        "route": "/NoPatientEngagementPortalWithRewardsPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "No Randomization Trial Supply Management Rtsm Page",
+    "canonicalKey": "no randomization rtsm supply trial",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NoRandomizationTrialSupplyManagementRtsmPage"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/NoRandomizationTrialSupplyManagementRtsmPage.js",
+        "route": "/NoRandomizationTrialSupplyManagementRtsmPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "No Remote Monitoring Televisit Module Page",
+    "canonicalKey": "monitoring no remote televisit",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NoRemoteMonitoringTelevisitModulePage"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/NoRemoteMonitoringTelevisitModulePage.js",
+        "route": "/NoRemoteMonitoringTelevisitModulePage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Notification Routes Exist But No Sms Email Deliver Page",
+    "canonicalKey": "but deliver email exist no notification routes sms",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NotificationRoutesExistButNoSmsEmailDeliverPage"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/NotificationRoutesExistButNoSmsEmailDeliverPage.js",
+        "route": "/NotificationRoutesExistButNoSmsEmailDeliverPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Notifications Page",
+    "canonicalKey": "notifications",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NotificationsPage"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/NotificationsPage.js",
+        "route": "/NotificationsPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Optimize Enrollment",
+    "canonicalKey": "enrollment optimize",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/optimize-enrollment"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/ai.js:239",
+        "route": "/optimize-enrollment",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Outcome Ensemble",
+    "canonicalKey": "ensemble outcome",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/outcome-ensemble"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/aiAdvanced.js:448",
+        "route": "/outcome-ensemble",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Outcomes",
+    "canonicalKey": "outcome",
+    "aliases": [
+      "Outcomes Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/OutcomesPage",
+      "/outcomes"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:151",
+        "route": "/outcomes",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:47",
+        "route": "/outcomes",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/Dashboard.js:44",
+        "route": "/outcomes",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/OutcomesPage.js",
+        "route": "/OutcomesPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Paper Alerts",
+    "canonicalKey": "alert paper",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/components/Sidebar.js:17",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Paper Id",
+    "canonicalKey": "id paper",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/papers/:paperId"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/routes/collections.js:18",
+        "route": "/:id/papers/:paperId",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Paper Recommender",
+    "canonicalKey": "paper recommender",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "navigation"
+    ],
+    "routes": [
+      "/paper-recommender"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/routes/agents.js:126",
+        "route": "/paper-recommender",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/components/Sidebar.js:18",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Paper Summarizer",
+    "canonicalKey": "paper summarizer",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "navigation"
+    ],
+    "routes": [
+      "/paper-summarizer"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/routes/agents.js:89",
+        "route": "/paper-summarizer",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/components/Sidebar.js:19",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Papers",
+    "canonicalKey": "paper",
+    "aliases": [
+      "Papers Page"
+    ],
+    "kinds": [
+      "api",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/:id/papers",
+      "/PapersPage"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/routes/collections.js:11",
+        "route": "/:id/papers",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/components/Sidebar.js:4",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/PapersPage.js",
+        "route": "/PapersPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Patient Match Pdf",
+    "canonicalKey": "match patient pdf",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/patient-match-pdf"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/customViews.js:238",
+        "route": "/patient-match-pdf",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Patient Outcome Predictor ML Model Forecasting Dro Page",
+    "canonicalKey": "dro forecasting ml model outcome patient predictor",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/PatientOutcomePredictorMlModelForecastingDroPage"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/PatientOutcomePredictorMlModelForecastingDroPage.js",
+        "route": "/PatientOutcomePredictorMlModelForecastingDroPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Pdf Ingestion",
+    "canonicalKey": "ingestion pdf",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/components/Sidebar.js:20",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Pgx Cpic",
+    "canonicalKey": "cpic pgx",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/PgxCpic",
+      "/pgx-cpic"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:76",
+        "route": "/pgx-cpic",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:13",
+        "route": "/pgx-cpic",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/PgxCpic.tsx",
+        "route": "/PgxCpic",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Pre Screen Batch",
+    "canonicalKey": "batch pre screen",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/pre-screen-batch"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/aiAdvanced.js:113",
+        "route": "/pre-screen-batch",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Predict Dropout",
+    "canonicalKey": "dropout predict",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/predict-dropout"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/aiAdvanced.js:610",
+        "route": "/predict-dropout",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Protocol Optimizer",
+    "canonicalKey": "optimizer protocol",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/protocol-optimizer"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/aiNew.js:160",
+        "route": "/protocol-optimizer",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Protocol Version Diff",
+    "canonicalKey": "diff protocol version",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/protocol-version-diff"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/aiAdvanced.js:329",
+        "route": "/protocol-version-diff",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Protocols",
+    "canonicalKey": "protocol",
+    "aliases": [
+      "Protocol"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/ai/protocol",
+      "/protocol",
+      "/protocols"
+    ],
+    "sourceProjects": [
+      "AIAmbulanceEMSDispatch",
+      "AIClinicalTrialMatching",
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
+      "healthcare-life-sciences/ambulance-ems-dispatch"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIAmbulanceEMSDispatch",
+        "path": "server/routes/ai.js:351",
+        "route": "/protocol",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAmbulanceEMSDispatch",
+        "path": "client/src/App.jsx:231",
+        "route": "/ai/protocol",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAmbulanceEMSDispatch",
+        "path": "client/src/App.jsx:223",
+        "route": "/protocols",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:148",
+        "route": "/protocols",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:44",
+        "route": "/protocols",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/Dashboard.js:41",
+        "route": "/protocols",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/customViews.js:252",
+        "route": "/protocols",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/customViews.js:261",
+        "route": "/protocols",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Prs",
+    "canonicalKey": "prs",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/prs"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:78",
+        "route": "/prs",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:15",
+        "route": "/prs",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Prs Dashboard",
+    "canonicalKey": "dashboard prs",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/PrsDashboard"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/PrsDashboard.tsx",
+        "route": "/PrsDashboard",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Publications Per Year",
+    "canonicalKey": "per publications year",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/publications-per-year"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/routes/customViews.js:25",
+        "route": "/publications-per-year",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Quality Scoring",
+    "canonicalKey": "quality scoring",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "navigation"
+    ],
+    "routes": [
+      "/quality-scoring"
+    ],
+    "sourceProjects": [
+      "AIDentalLabCaseManager",
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
+      "healthcare-life-sciences/dental-practice-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/components/Sidebar.js:21",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/routes/qualityScoring.js:57",
+        "route": "/quality-scoring",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Ranked",
+    "canonicalKey": "ranked",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/patient/:id/ranked"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/matches.js:94",
+        "route": "/patient/:id/ranked",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Regulatory",
+    "canonicalKey": "regulatory",
+    "aliases": [
+      "Regulatory Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/RegulatoryPage",
+      "/regulatory"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:152",
+        "route": "/regulatory",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:48",
+        "route": "/regulatory",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/Dashboard.js:45",
+        "route": "/regulatory",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/RegulatoryPage.js",
+        "route": "/RegulatoryPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Regulatory Compliance Agent Auto Generating Amendm Page",
+    "canonicalKey": "agent amendm auto compliance generating regulatory",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/RegulatoryComplianceAgentAutoGeneratingAmendmPage"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/RegulatoryComplianceAgentAutoGeneratingAmendmPage.js",
+        "route": "/RegulatoryComplianceAgentAutoGeneratingAmendmPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Regulatory Readiness",
+    "canonicalKey": "readiness regulatory",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/regulatory-readiness"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/aiAdvanced.js:520",
+        "route": "/regulatory-readiness",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Resource Csv",
+    "canonicalKey": "csv resource",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/export/:resource.csv"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/utility.js:66",
+        "route": "/export/:resource.csv",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Retention Risk",
+    "canonicalKey": "retention risk",
+    "aliases": [
+      "Retention Risk Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/RetentionRiskPage",
+      "/retention-risk"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:146",
+        "route": "/retention-risk",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:42",
+        "route": "/retention-risk",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/RetentionRiskPage.js",
+        "route": "/RetentionRiskPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Reviews",
+    "canonicalKey": "review",
+    "aliases": [
+      "Review",
+      "Reviews Page"
+    ],
+    "kinds": [
+      "api",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/:id/review",
+      "/ReviewsPage"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager",
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/staff.js:53",
+        "route": "/:id/review",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/components/Sidebar.js:6",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/ReviewsPage.js",
+        "route": "/ReviewsPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Sample Data",
+    "canonicalKey": "data sample",
+    "aliases": [
+      "Sample Data Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/SampleDataPage",
+      "/sample-data",
+      "sample_data"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine",
+      "industrial-capabilities-in-space"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
+      "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "industrial-capabilities-in-space",
+        "path": "frontend/src/App.tsx:67",
+        "route": "sample_data",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "industrial-capabilities-in-space",
+        "path": "frontend/src/pages/SampleDataPage.tsx",
+        "route": "/SampleDataPage",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:74",
+        "route": "/sample-data",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Dashboard.tsx:41",
+        "route": "/sample-data",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:44",
+        "route": "/sample-data",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Scopes",
+    "canonicalKey": "scope",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/scopes"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/consents.js:37",
+        "route": "/scopes",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Screen Patient",
+    "canonicalKey": "patient screen",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/screen-patient"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/ai.js:70",
+        "route": "/screen-patient",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Site Feasibility Rank",
+    "canonicalKey": "feasibility rank site",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/site-feasibility-rank"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/aiAdvanced.js:252",
+        "route": "/site-feasibility-rank",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Site Network Optimizer Recommending Sites That Max Page",
+    "canonicalKey": "max network optimizer recommending site sites that",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/SiteNetworkOptimizerRecommendingSitesThatMaxPage"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/SiteNetworkOptimizerRecommendingSitesThatMaxPage.js",
+        "route": "/SiteNetworkOptimizerRecommendingSitesThatMaxPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Site Optimizer",
+    "canonicalKey": "optimizer site",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/site-optimizer"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/aiAdvanced.js:666",
+        "route": "/site-optimizer",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Site Selection",
+    "canonicalKey": "selection site",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/site-selection"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/aiNew.js:244",
+        "route": "/site-selection",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Sites",
+    "canonicalKey": "site",
+    "aliases": [
+      "Sites Page"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/SitesPage",
+      "/sites"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching",
+      "industrial-capabilities-in-space"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
+      "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "industrial-capabilities-in-space",
+        "path": "backend/routes/isru.js:142",
+        "route": "/sites",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "industrial-capabilities-in-space",
+        "path": "backend/routes/isru.js:23",
+        "route": "/sites",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:144",
+        "route": "/sites",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:40",
+        "route": "/sites",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/Dashboard.js:38",
+        "route": "/sites",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/SitesPage.js",
+        "route": "/SitesPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Synthesize Findings",
+    "canonicalKey": "finding synthesize",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/synthesize-findings"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/routes/agents.js:12",
+        "route": "/synthesize-findings",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Test",
+    "canonicalKey": "test",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/test"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/webhooks.js:62",
+        "route": "/:id/test",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Tools",
+    "canonicalKey": "tool",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/tools"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:73",
+        "route": "/tools",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:43",
+        "route": "/tools",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Track Citations",
+    "canonicalKey": "citation track",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/track-citations"
+    ],
+    "sourceProjects": [
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/routes/agents.js:35",
+        "route": "/track-citations",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Trait",
+    "canonicalKey": "trait",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/trait/:trait"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/prs.js:146",
+        "route": "/trait/:trait",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Treatment Response",
+    "canonicalKey": "response treatment",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/treatment-response"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/ai.js:145",
+        "route": "/treatment-response",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Trial Autofill",
+    "canonicalKey": "autofill trial",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/cf/trial-autofill"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:97",
+        "route": "/cf/trial-autofill",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:34",
+        "route": "/cf/trial-autofill",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Trial Matcher",
+    "canonicalKey": "matcher trial",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/TrialMatcher",
+      "/trial-matcher"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:79",
+        "route": "/trial-matcher",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:16",
+        "route": "/trial-matcher",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/TrialMatcher.tsx",
+        "route": "/TrialMatcher",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Trials",
+    "canonicalKey": "trial",
+    "aliases": [
+      "Trial History",
+      "Trials Page"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/:id/trial-history",
+      "/TrialsPage",
+      "/trials"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching",
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/patients.js:128",
+        "route": "/:id/trial-history",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:140",
+        "route": "/trials",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:36",
+        "route": "/trials",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/Dashboard.js:35",
+        "route": "/trials",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/trial-matcher.js:35",
+        "route": "/trials",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/trial-matcher.js:59",
+        "route": "/trials",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/TrialsPage.js",
+        "route": "/TrialsPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Variant Acmg",
+    "canonicalKey": "acmg variant",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/VariantAcmg",
+      "/variant-acmg"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:77",
+        "route": "/variant-acmg",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:14",
+        "route": "/variant-acmg",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/VariantAcmg.tsx",
+        "route": "/VariantAcmg",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Warfarin Iwpc",
+    "canonicalKey": "iwpc warfarin",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/WarfarinIwpc",
+      "/warfarin-iwpc"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:80",
+        "route": "/warfarin-iwpc",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:17",
+        "route": "/warfarin-iwpc",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/pages/WarfarinIwpc.tsx",
+        "route": "/WarfarinIwpc",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Wearable Fusion",
+    "canonicalKey": "fusion wearable",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/cf/wearable-fusion"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:96",
+        "route": "/cf/wearable-fusion",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:33",
+        "route": "/cf/wearable-fusion",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Wearable Stream Analyzer",
+    "canonicalKey": "analyzer stream wearable",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap/wearable-stream-analyzer"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:85",
+        "route": "/gap/wearable-stream-analyzer",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:22",
+        "route": "/gap/wearable-stream-analyzer",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Wearables Integration",
+    "canonicalKey": "integration wearables",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap/wearables-integration"
+    ],
+    "sourceProjects": [
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:89",
+        "route": "/gap/wearables-integration",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:26",
+        "route": "/gap/wearables-integration",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Webhooks",
+    "canonicalKey": "webhook",
+    "aliases": [
+      "Webhooks Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/WebhooksPage",
+      "/webhooks"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:155",
+        "route": "/webhooks",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:51",
+        "route": "/webhooks",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/WebhooksPage.js",
+        "route": "/WebhooksPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  }
+]
