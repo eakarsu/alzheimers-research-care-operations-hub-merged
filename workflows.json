@@ -1,0 +1,1951 @@
+{
+  "version": 1,
+  "appId": "alzheimers-research-care-operations-hub-merged",
+  "workflows": [
+    {
+      "id": "request-intake",
+      "title": "Active Request Intake",
+      "description": "Manage request intake for Active within Alzheimers Research Care Operations Hub, with explicit ownership, due dates, state transitions, and audit history.",
+      "fields": [
+        {
+          "key": "reference",
+          "label": "Reference",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "subject",
+          "label": "Active Subject",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "owner",
+          "label": "Owner",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "priority",
+          "label": "Priority",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+          ]
+        },
+        {
+          "key": "dueDate",
+          "label": "Due Date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "notes",
+          "label": "Operational Notes",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "states": [
+        "draft",
+        "submitted",
+        "triage",
+        "accepted",
+        "rejected"
+      ],
+      "transitions": [
+        {
+          "id": "submit",
+          "label": "Submit Request",
+          "from": [
+            "draft"
+          ],
+          "to": "submitted"
+        },
+        {
+          "id": "triage",
+          "label": "Start Triage",
+          "from": [
+            "submitted"
+          ],
+          "to": "triage"
+        },
+        {
+          "id": "accept",
+          "label": "Accept Request",
+          "from": [
+            "triage"
+          ],
+          "to": "accepted"
+        },
+        {
+          "id": "reject",
+          "label": "Reject Request",
+          "from": [
+            "submitted",
+            "triage"
+          ],
+          "to": "rejected"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "request-intake-001",
+          "state": "draft",
+          "reference": "ALZRESCAR-0001",
+          "subject": "Active — North Region",
+          "owner": "Avery Morgan",
+          "priority": "Low",
+          "dueDate": "2026-08-01",
+          "notes": "Demo request intake record for north region; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-002",
+          "state": "draft",
+          "reference": "ALZRESCAR-0002",
+          "subject": "Active — Enterprise Account",
+          "owner": "Jordan Lee",
+          "priority": "Medium",
+          "dueDate": "2026-08-03",
+          "notes": "Demo request intake record for enterprise account; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-003",
+          "state": "draft",
+          "reference": "ALZRESCAR-0003",
+          "subject": "Active — Quarterly Cycle",
+          "owner": "Taylor Brooks",
+          "priority": "High",
+          "dueDate": "2026-08-05",
+          "notes": "Demo request intake record for quarterly cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-004",
+          "state": "draft",
+          "reference": "ALZRESCAR-0004",
+          "subject": "Active — Priority Queue",
+          "owner": "Morgan Chen",
+          "priority": "Critical",
+          "dueDate": "2026-08-07",
+          "notes": "Demo request intake record for priority queue; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-005",
+          "state": "draft",
+          "reference": "ALZRESCAR-0005",
+          "subject": "Active — Operations Review",
+          "owner": "Riley Patel",
+          "priority": "Low",
+          "dueDate": "2026-08-09",
+          "notes": "Demo request intake record for operations review; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-006",
+          "state": "draft",
+          "reference": "ALZRESCAR-0006",
+          "subject": "Active — Customer Request",
+          "owner": "Casey Nguyen",
+          "priority": "Medium",
+          "dueDate": "2026-08-11",
+          "notes": "Demo request intake record for customer request; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-007",
+          "state": "draft",
+          "reference": "ALZRESCAR-0007",
+          "subject": "Active — Compliance Check",
+          "owner": "Cameron Diaz",
+          "priority": "High",
+          "dueDate": "2026-08-13",
+          "notes": "Demo request intake record for compliance check; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-008",
+          "state": "draft",
+          "reference": "ALZRESCAR-0008",
+          "subject": "Active — Service Window",
+          "owner": "Drew Wilson",
+          "priority": "Critical",
+          "dueDate": "2026-08-15",
+          "notes": "Demo request intake record for service window; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-009",
+          "state": "draft",
+          "reference": "ALZRESCAR-0009",
+          "subject": "Active — Quality Sample",
+          "owner": "Emerson Clark",
+          "priority": "Low",
+          "dueDate": "2026-08-17",
+          "notes": "Demo request intake record for quality sample; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-010",
+          "state": "draft",
+          "reference": "ALZRESCAR-0010",
+          "subject": "Active — Management Review",
+          "owner": "Hayden Kim",
+          "priority": "Medium",
+          "dueDate": "2026-08-19",
+          "notes": "Demo request intake record for management review; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-011",
+          "state": "draft",
+          "reference": "ALZRESCAR-0011",
+          "subject": "Active — Exception Follow-up",
+          "owner": "Jamie Rivera",
+          "priority": "High",
+          "dueDate": "2026-08-21",
+          "notes": "Demo request intake record for exception follow-up; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-012",
+          "state": "draft",
+          "reference": "ALZRESCAR-0012",
+          "subject": "Active — Evidence Package",
+          "owner": "Kai Thompson",
+          "priority": "Critical",
+          "dueDate": "2026-08-23",
+          "notes": "Demo request intake record for evidence package; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-013",
+          "state": "draft",
+          "reference": "ALZRESCAR-0013",
+          "subject": "Active — Planning Cycle",
+          "owner": "Logan Shah",
+          "priority": "Low",
+          "dueDate": "2026-08-25",
+          "notes": "Demo request intake record for planning cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-014",
+          "state": "draft",
+          "reference": "ALZRESCAR-0014",
+          "subject": "Active — Performance Review",
+          "owner": "Parker Evans",
+          "priority": "Medium",
+          "dueDate": "2026-08-27",
+          "notes": "Demo request intake record for performance review; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-015",
+          "state": "draft",
+          "reference": "ALZRESCAR-0015",
+          "subject": "Active — Final Verification",
+          "owner": "Quinn Murphy",
+          "priority": "High",
+          "dueDate": "2026-08-29",
+          "notes": "Demo request intake record for final verification; verify evidence and next action before completion."
+        }
+      ]
+    },
+    {
+      "id": "operations-queue",
+      "title": "Adverse Event Signals Operations Queue",
+      "description": "Manage operations queue for Adverse Event Signals within Alzheimers Research Care Operations Hub, with explicit ownership, due dates, state transitions, and audit history.",
+      "fields": [
+        {
+          "key": "reference",
+          "label": "Reference",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "subject",
+          "label": "Adverse Event Signals Subject",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "owner",
+          "label": "Owner",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "priority",
+          "label": "Priority",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+          ]
+        },
+        {
+          "key": "dueDate",
+          "label": "Due Date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "notes",
+          "label": "Operational Notes",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "states": [
+        "queued",
+        "assigned",
+        "in-progress",
+        "blocked",
+        "complete"
+      ],
+      "transitions": [
+        {
+          "id": "assign",
+          "label": "Assign Work",
+          "from": [
+            "queued"
+          ],
+          "to": "assigned"
+        },
+        {
+          "id": "start",
+          "label": "Start Work",
+          "from": [
+            "assigned"
+          ],
+          "to": "in-progress"
+        },
+        {
+          "id": "block",
+          "label": "Record Blocker",
+          "from": [
+            "assigned",
+            "in-progress"
+          ],
+          "to": "blocked"
+        },
+        {
+          "id": "complete",
+          "label": "Complete Work",
+          "from": [
+            "in-progress",
+            "blocked"
+          ],
+          "to": "complete"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "operations-queue-001",
+          "state": "queued",
+          "reference": "ALZRESCAR-0001",
+          "subject": "Adverse Event Signals — North Region",
+          "owner": "Avery Morgan",
+          "priority": "Low",
+          "dueDate": "2026-08-01",
+          "notes": "Demo operations queue record for north region; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-002",
+          "state": "queued",
+          "reference": "ALZRESCAR-0002",
+          "subject": "Adverse Event Signals — Enterprise Account",
+          "owner": "Jordan Lee",
+          "priority": "Medium",
+          "dueDate": "2026-08-03",
+          "notes": "Demo operations queue record for enterprise account; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-003",
+          "state": "queued",
+          "reference": "ALZRESCAR-0003",
+          "subject": "Adverse Event Signals — Quarterly Cycle",
+          "owner": "Taylor Brooks",
+          "priority": "High",
+          "dueDate": "2026-08-05",
+          "notes": "Demo operations queue record for quarterly cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-004",
+          "state": "queued",
+          "reference": "ALZRESCAR-0004",
+          "subject": "Adverse Event Signals — Priority Queue",
+          "owner": "Morgan Chen",
+          "priority": "Critical",
+          "dueDate": "2026-08-07",
+          "notes": "Demo operations queue record for priority queue; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-005",
+          "state": "queued",
+          "reference": "ALZRESCAR-0005",
+          "subject": "Adverse Event Signals — Operations Review",
+          "owner": "Riley Patel",
+          "priority": "Low",
+          "dueDate": "2026-08-09",
+          "notes": "Demo operations queue record for operations review; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-006",
+          "state": "queued",
+          "reference": "ALZRESCAR-0006",
+          "subject": "Adverse Event Signals — Customer Request",
+          "owner": "Casey Nguyen",
+          "priority": "Medium",
+          "dueDate": "2026-08-11",
+          "notes": "Demo operations queue record for customer request; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-007",
+          "state": "queued",
+          "reference": "ALZRESCAR-0007",
+          "subject": "Adverse Event Signals — Compliance Check",
+          "owner": "Cameron Diaz",
+          "priority": "High",
+          "dueDate": "2026-08-13",
+          "notes": "Demo operations queue record for compliance check; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-008",
+          "state": "queued",
+          "reference": "ALZRESCAR-0008",
+          "subject": "Adverse Event Signals — Service Window",
+          "owner": "Drew Wilson",
+          "priority": "Critical",
+          "dueDate": "2026-08-15",
+          "notes": "Demo operations queue record for service window; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-009",
+          "state": "queued",
+          "reference": "ALZRESCAR-0009",
+          "subject": "Adverse Event Signals — Quality Sample",
+          "owner": "Emerson Clark",
+          "priority": "Low",
+          "dueDate": "2026-08-17",
+          "notes": "Demo operations queue record for quality sample; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-010",
+          "state": "queued",
+          "reference": "ALZRESCAR-0010",
+          "subject": "Adverse Event Signals — Management Review",
+          "owner": "Hayden Kim",
+          "priority": "Medium",
+          "dueDate": "2026-08-19",
+          "notes": "Demo operations queue record for management review; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-011",
+          "state": "queued",
+          "reference": "ALZRESCAR-0011",
+          "subject": "Adverse Event Signals — Exception Follow-up",
+          "owner": "Jamie Rivera",
+          "priority": "High",
+          "dueDate": "2026-08-21",
+          "notes": "Demo operations queue record for exception follow-up; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-012",
+          "state": "queued",
+          "reference": "ALZRESCAR-0012",
+          "subject": "Adverse Event Signals — Evidence Package",
+          "owner": "Kai Thompson",
+          "priority": "Critical",
+          "dueDate": "2026-08-23",
+          "notes": "Demo operations queue record for evidence package; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-013",
+          "state": "queued",
+          "reference": "ALZRESCAR-0013",
+          "subject": "Adverse Event Signals — Planning Cycle",
+          "owner": "Logan Shah",
+          "priority": "Low",
+          "dueDate": "2026-08-25",
+          "notes": "Demo operations queue record for planning cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-014",
+          "state": "queued",
+          "reference": "ALZRESCAR-0014",
+          "subject": "Adverse Event Signals — Performance Review",
+          "owner": "Parker Evans",
+          "priority": "Medium",
+          "dueDate": "2026-08-27",
+          "notes": "Demo operations queue record for performance review; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-015",
+          "state": "queued",
+          "reference": "ALZRESCAR-0015",
+          "subject": "Adverse Event Signals — Final Verification",
+          "owner": "Quinn Murphy",
+          "priority": "High",
+          "dueDate": "2026-08-29",
+          "notes": "Demo operations queue record for final verification; verify evidence and next action before completion."
+        }
+      ]
+    },
+    {
+      "id": "quality-review",
+      "title": "Adverse Event Warning Quality Review",
+      "description": "Manage quality review for Adverse Event Warning within Alzheimers Research Care Operations Hub, with explicit ownership, due dates, state transitions, and audit history.",
+      "fields": [
+        {
+          "key": "reference",
+          "label": "Reference",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "subject",
+          "label": "Adverse Event Warning Subject",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "owner",
+          "label": "Owner",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "priority",
+          "label": "Priority",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+          ]
+        },
+        {
+          "key": "dueDate",
+          "label": "Due Date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "notes",
+          "label": "Operational Notes",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "states": [
+        "pending",
+        "reviewing",
+        "changes-required",
+        "verified",
+        "closed"
+      ],
+      "transitions": [
+        {
+          "id": "review",
+          "label": "Begin Review",
+          "from": [
+            "pending"
+          ],
+          "to": "reviewing"
+        },
+        {
+          "id": "request-changes",
+          "label": "Request Changes",
+          "from": [
+            "reviewing"
+          ],
+          "to": "changes-required"
+        },
+        {
+          "id": "verify",
+          "label": "Verify Result",
+          "from": [
+            "reviewing",
+            "changes-required"
+          ],
+          "to": "verified"
+        },
+        {
+          "id": "close",
+          "label": "Close Review",
+          "from": [
+            "verified"
+          ],
+          "to": "closed"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "quality-review-001",
+          "state": "pending",
+          "reference": "ALZRESCAR-0001",
+          "subject": "Adverse Event Warning — North Region",
+          "owner": "Avery Morgan",
+          "priority": "Low",
+          "dueDate": "2026-08-01",
+          "notes": "Demo quality review record for north region; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-002",
+          "state": "pending",
+          "reference": "ALZRESCAR-0002",
+          "subject": "Adverse Event Warning — Enterprise Account",
+          "owner": "Jordan Lee",
+          "priority": "Medium",
+          "dueDate": "2026-08-03",
+          "notes": "Demo quality review record for enterprise account; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-003",
+          "state": "pending",
+          "reference": "ALZRESCAR-0003",
+          "subject": "Adverse Event Warning — Quarterly Cycle",
+          "owner": "Taylor Brooks",
+          "priority": "High",
+          "dueDate": "2026-08-05",
+          "notes": "Demo quality review record for quarterly cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-004",
+          "state": "pending",
+          "reference": "ALZRESCAR-0004",
+          "subject": "Adverse Event Warning — Priority Queue",
+          "owner": "Morgan Chen",
+          "priority": "Critical",
+          "dueDate": "2026-08-07",
+          "notes": "Demo quality review record for priority queue; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-005",
+          "state": "pending",
+          "reference": "ALZRESCAR-0005",
+          "subject": "Adverse Event Warning — Operations Review",
+          "owner": "Riley Patel",
+          "priority": "Low",
+          "dueDate": "2026-08-09",
+          "notes": "Demo quality review record for operations review; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-006",
+          "state": "pending",
+          "reference": "ALZRESCAR-0006",
+          "subject": "Adverse Event Warning — Customer Request",
+          "owner": "Casey Nguyen",
+          "priority": "Medium",
+          "dueDate": "2026-08-11",
+          "notes": "Demo quality review record for customer request; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-007",
+          "state": "pending",
+          "reference": "ALZRESCAR-0007",
+          "subject": "Adverse Event Warning — Compliance Check",
+          "owner": "Cameron Diaz",
+          "priority": "High",
+          "dueDate": "2026-08-13",
+          "notes": "Demo quality review record for compliance check; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-008",
+          "state": "pending",
+          "reference": "ALZRESCAR-0008",
+          "subject": "Adverse Event Warning — Service Window",
+          "owner": "Drew Wilson",
+          "priority": "Critical",
+          "dueDate": "2026-08-15",
+          "notes": "Demo quality review record for service window; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-009",
+          "state": "pending",
+          "reference": "ALZRESCAR-0009",
+          "subject": "Adverse Event Warning — Quality Sample",
+          "owner": "Emerson Clark",
+          "priority": "Low",
+          "dueDate": "2026-08-17",
+          "notes": "Demo quality review record for quality sample; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-010",
+          "state": "pending",
+          "reference": "ALZRESCAR-0010",
+          "subject": "Adverse Event Warning — Management Review",
+          "owner": "Hayden Kim",
+          "priority": "Medium",
+          "dueDate": "2026-08-19",
+          "notes": "Demo quality review record for management review; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-011",
+          "state": "pending",
+          "reference": "ALZRESCAR-0011",
+          "subject": "Adverse Event Warning — Exception Follow-up",
+          "owner": "Jamie Rivera",
+          "priority": "High",
+          "dueDate": "2026-08-21",
+          "notes": "Demo quality review record for exception follow-up; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-012",
+          "state": "pending",
+          "reference": "ALZRESCAR-0012",
+          "subject": "Adverse Event Warning — Evidence Package",
+          "owner": "Kai Thompson",
+          "priority": "Critical",
+          "dueDate": "2026-08-23",
+          "notes": "Demo quality review record for evidence package; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-013",
+          "state": "pending",
+          "reference": "ALZRESCAR-0013",
+          "subject": "Adverse Event Warning — Planning Cycle",
+          "owner": "Logan Shah",
+          "priority": "Low",
+          "dueDate": "2026-08-25",
+          "notes": "Demo quality review record for planning cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-014",
+          "state": "pending",
+          "reference": "ALZRESCAR-0014",
+          "subject": "Adverse Event Warning — Performance Review",
+          "owner": "Parker Evans",
+          "priority": "Medium",
+          "dueDate": "2026-08-27",
+          "notes": "Demo quality review record for performance review; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-015",
+          "state": "pending",
+          "reference": "ALZRESCAR-0015",
+          "subject": "Adverse Event Warning — Final Verification",
+          "owner": "Quinn Murphy",
+          "priority": "High",
+          "dueDate": "2026-08-29",
+          "notes": "Demo quality review record for final verification; verify evidence and next action before completion."
+        }
+      ]
+    },
+    {
+      "id": "risk-assessment",
+      "title": "AI Agents Risk Assessment",
+      "description": "Manage risk assessment for AI Agents within Alzheimers Research Care Operations Hub, with explicit ownership, due dates, state transitions, and audit history.",
+      "fields": [
+        {
+          "key": "reference",
+          "label": "Reference",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "subject",
+          "label": "AI Agents Subject",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "owner",
+          "label": "Owner",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "priority",
+          "label": "Priority",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+          ]
+        },
+        {
+          "key": "dueDate",
+          "label": "Due Date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "notes",
+          "label": "Operational Notes",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "states": [
+        "identified",
+        "assessing",
+        "mitigating",
+        "accepted",
+        "closed"
+      ],
+      "transitions": [
+        {
+          "id": "assess",
+          "label": "Assess Risk",
+          "from": [
+            "identified"
+          ],
+          "to": "assessing"
+        },
+        {
+          "id": "mitigate",
+          "label": "Plan Mitigation",
+          "from": [
+            "assessing"
+          ],
+          "to": "mitigating"
+        },
+        {
+          "id": "accept",
+          "label": "Accept Risk",
+          "from": [
+            "assessing",
+            "mitigating"
+          ],
+          "to": "accepted"
+        },
+        {
+          "id": "close",
+          "label": "Close Risk",
+          "from": [
+            "accepted"
+          ],
+          "to": "closed"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "risk-assessment-001",
+          "state": "identified",
+          "reference": "ALZRESCAR-0001",
+          "subject": "AI Agents — North Region",
+          "owner": "Avery Morgan",
+          "priority": "Low",
+          "dueDate": "2026-08-01",
+          "notes": "Demo risk assessment record for north region; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-002",
+          "state": "identified",
+          "reference": "ALZRESCAR-0002",
+          "subject": "AI Agents — Enterprise Account",
+          "owner": "Jordan Lee",
+          "priority": "Medium",
+          "dueDate": "2026-08-03",
+          "notes": "Demo risk assessment record for enterprise account; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-003",
+          "state": "identified",
+          "reference": "ALZRESCAR-0003",
+          "subject": "AI Agents — Quarterly Cycle",
+          "owner": "Taylor Brooks",
+          "priority": "High",
+          "dueDate": "2026-08-05",
+          "notes": "Demo risk assessment record for quarterly cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-004",
+          "state": "identified",
+          "reference": "ALZRESCAR-0004",
+          "subject": "AI Agents — Priority Queue",
+          "owner": "Morgan Chen",
+          "priority": "Critical",
+          "dueDate": "2026-08-07",
+          "notes": "Demo risk assessment record for priority queue; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-005",
+          "state": "identified",
+          "reference": "ALZRESCAR-0005",
+          "subject": "AI Agents — Operations Review",
+          "owner": "Riley Patel",
+          "priority": "Low",
+          "dueDate": "2026-08-09",
+          "notes": "Demo risk assessment record for operations review; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-006",
+          "state": "identified",
+          "reference": "ALZRESCAR-0006",
+          "subject": "AI Agents — Customer Request",
+          "owner": "Casey Nguyen",
+          "priority": "Medium",
+          "dueDate": "2026-08-11",
+          "notes": "Demo risk assessment record for customer request; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-007",
+          "state": "identified",
+          "reference": "ALZRESCAR-0007",
+          "subject": "AI Agents — Compliance Check",
+          "owner": "Cameron Diaz",
+          "priority": "High",
+          "dueDate": "2026-08-13",
+          "notes": "Demo risk assessment record for compliance check; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-008",
+          "state": "identified",
+          "reference": "ALZRESCAR-0008",
+          "subject": "AI Agents — Service Window",
+          "owner": "Drew Wilson",
+          "priority": "Critical",
+          "dueDate": "2026-08-15",
+          "notes": "Demo risk assessment record for service window; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-009",
+          "state": "identified",
+          "reference": "ALZRESCAR-0009",
+          "subject": "AI Agents — Quality Sample",
+          "owner": "Emerson Clark",
+          "priority": "Low",
+          "dueDate": "2026-08-17",
+          "notes": "Demo risk assessment record for quality sample; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-010",
+          "state": "identified",
+          "reference": "ALZRESCAR-0010",
+          "subject": "AI Agents — Management Review",
+          "owner": "Hayden Kim",
+          "priority": "Medium",
+          "dueDate": "2026-08-19",
+          "notes": "Demo risk assessment record for management review; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-011",
+          "state": "identified",
+          "reference": "ALZRESCAR-0011",
+          "subject": "AI Agents — Exception Follow-up",
+          "owner": "Jamie Rivera",
+          "priority": "High",
+          "dueDate": "2026-08-21",
+          "notes": "Demo risk assessment record for exception follow-up; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-012",
+          "state": "identified",
+          "reference": "ALZRESCAR-0012",
+          "subject": "AI Agents — Evidence Package",
+          "owner": "Kai Thompson",
+          "priority": "Critical",
+          "dueDate": "2026-08-23",
+          "notes": "Demo risk assessment record for evidence package; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-013",
+          "state": "identified",
+          "reference": "ALZRESCAR-0013",
+          "subject": "AI Agents — Planning Cycle",
+          "owner": "Logan Shah",
+          "priority": "Low",
+          "dueDate": "2026-08-25",
+          "notes": "Demo risk assessment record for planning cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-014",
+          "state": "identified",
+          "reference": "ALZRESCAR-0014",
+          "subject": "AI Agents — Performance Review",
+          "owner": "Parker Evans",
+          "priority": "Medium",
+          "dueDate": "2026-08-27",
+          "notes": "Demo risk assessment record for performance review; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-015",
+          "state": "identified",
+          "reference": "ALZRESCAR-0015",
+          "subject": "AI Agents — Final Verification",
+          "owner": "Quinn Murphy",
+          "priority": "High",
+          "dueDate": "2026-08-29",
+          "notes": "Demo risk assessment record for final verification; verify evidence and next action before completion."
+        }
+      ]
+    },
+    {
+      "id": "evidence-management",
+      "title": "Analyze Adverse Events Evidence Management",
+      "description": "Manage evidence management for Analyze Adverse Events within Alzheimers Research Care Operations Hub, with explicit ownership, due dates, state transitions, and audit history.",
+      "fields": [
+        {
+          "key": "reference",
+          "label": "Reference",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "subject",
+          "label": "Analyze Adverse Events Subject",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "owner",
+          "label": "Owner",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "priority",
+          "label": "Priority",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+          ]
+        },
+        {
+          "key": "dueDate",
+          "label": "Due Date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "notes",
+          "label": "Operational Notes",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "states": [
+        "requested",
+        "collected",
+        "reviewing",
+        "verified",
+        "archived"
+      ],
+      "transitions": [
+        {
+          "id": "collect",
+          "label": "Collect Evidence",
+          "from": [
+            "requested"
+          ],
+          "to": "collected"
+        },
+        {
+          "id": "review",
+          "label": "Review Evidence",
+          "from": [
+            "collected"
+          ],
+          "to": "reviewing"
+        },
+        {
+          "id": "verify",
+          "label": "Verify Evidence",
+          "from": [
+            "reviewing"
+          ],
+          "to": "verified"
+        },
+        {
+          "id": "archive",
+          "label": "Archive Evidence",
+          "from": [
+            "verified"
+          ],
+          "to": "archived"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "evidence-management-001",
+          "state": "requested",
+          "reference": "ALZRESCAR-0001",
+          "subject": "Analyze Adverse Events — North Region",
+          "owner": "Avery Morgan",
+          "priority": "Low",
+          "dueDate": "2026-08-01",
+          "notes": "Demo evidence management record for north region; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-002",
+          "state": "requested",
+          "reference": "ALZRESCAR-0002",
+          "subject": "Analyze Adverse Events — Enterprise Account",
+          "owner": "Jordan Lee",
+          "priority": "Medium",
+          "dueDate": "2026-08-03",
+          "notes": "Demo evidence management record for enterprise account; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-003",
+          "state": "requested",
+          "reference": "ALZRESCAR-0003",
+          "subject": "Analyze Adverse Events — Quarterly Cycle",
+          "owner": "Taylor Brooks",
+          "priority": "High",
+          "dueDate": "2026-08-05",
+          "notes": "Demo evidence management record for quarterly cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-004",
+          "state": "requested",
+          "reference": "ALZRESCAR-0004",
+          "subject": "Analyze Adverse Events — Priority Queue",
+          "owner": "Morgan Chen",
+          "priority": "Critical",
+          "dueDate": "2026-08-07",
+          "notes": "Demo evidence management record for priority queue; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-005",
+          "state": "requested",
+          "reference": "ALZRESCAR-0005",
+          "subject": "Analyze Adverse Events — Operations Review",
+          "owner": "Riley Patel",
+          "priority": "Low",
+          "dueDate": "2026-08-09",
+          "notes": "Demo evidence management record for operations review; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-006",
+          "state": "requested",
+          "reference": "ALZRESCAR-0006",
+          "subject": "Analyze Adverse Events — Customer Request",
+          "owner": "Casey Nguyen",
+          "priority": "Medium",
+          "dueDate": "2026-08-11",
+          "notes": "Demo evidence management record for customer request; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-007",
+          "state": "requested",
+          "reference": "ALZRESCAR-0007",
+          "subject": "Analyze Adverse Events — Compliance Check",
+          "owner": "Cameron Diaz",
+          "priority": "High",
+          "dueDate": "2026-08-13",
+          "notes": "Demo evidence management record for compliance check; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-008",
+          "state": "requested",
+          "reference": "ALZRESCAR-0008",
+          "subject": "Analyze Adverse Events — Service Window",
+          "owner": "Drew Wilson",
+          "priority": "Critical",
+          "dueDate": "2026-08-15",
+          "notes": "Demo evidence management record for service window; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-009",
+          "state": "requested",
+          "reference": "ALZRESCAR-0009",
+          "subject": "Analyze Adverse Events — Quality Sample",
+          "owner": "Emerson Clark",
+          "priority": "Low",
+          "dueDate": "2026-08-17",
+          "notes": "Demo evidence management record for quality sample; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-010",
+          "state": "requested",
+          "reference": "ALZRESCAR-0010",
+          "subject": "Analyze Adverse Events — Management Review",
+          "owner": "Hayden Kim",
+          "priority": "Medium",
+          "dueDate": "2026-08-19",
+          "notes": "Demo evidence management record for management review; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-011",
+          "state": "requested",
+          "reference": "ALZRESCAR-0011",
+          "subject": "Analyze Adverse Events — Exception Follow-up",
+          "owner": "Jamie Rivera",
+          "priority": "High",
+          "dueDate": "2026-08-21",
+          "notes": "Demo evidence management record for exception follow-up; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-012",
+          "state": "requested",
+          "reference": "ALZRESCAR-0012",
+          "subject": "Analyze Adverse Events — Evidence Package",
+          "owner": "Kai Thompson",
+          "priority": "Critical",
+          "dueDate": "2026-08-23",
+          "notes": "Demo evidence management record for evidence package; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-013",
+          "state": "requested",
+          "reference": "ALZRESCAR-0013",
+          "subject": "Analyze Adverse Events — Planning Cycle",
+          "owner": "Logan Shah",
+          "priority": "Low",
+          "dueDate": "2026-08-25",
+          "notes": "Demo evidence management record for planning cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-014",
+          "state": "requested",
+          "reference": "ALZRESCAR-0014",
+          "subject": "Analyze Adverse Events — Performance Review",
+          "owner": "Parker Evans",
+          "priority": "Medium",
+          "dueDate": "2026-08-27",
+          "notes": "Demo evidence management record for performance review; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-015",
+          "state": "requested",
+          "reference": "ALZRESCAR-0015",
+          "subject": "Analyze Adverse Events — Final Verification",
+          "owner": "Quinn Murphy",
+          "priority": "High",
+          "dueDate": "2026-08-29",
+          "notes": "Demo evidence management record for final verification; verify evidence and next action before completion."
+        }
+      ]
+    },
+    {
+      "id": "exception-resolution",
+      "title": "Analyze Biomarkers Exception Resolution",
+      "description": "Manage exception resolution for Analyze Biomarkers within Alzheimers Research Care Operations Hub, with explicit ownership, due dates, state transitions, and audit history.",
+      "fields": [
+        {
+          "key": "reference",
+          "label": "Reference",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "subject",
+          "label": "Analyze Biomarkers Subject",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "owner",
+          "label": "Owner",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "priority",
+          "label": "Priority",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+          ]
+        },
+        {
+          "key": "dueDate",
+          "label": "Due Date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "notes",
+          "label": "Operational Notes",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "states": [
+        "open",
+        "investigating",
+        "remediating",
+        "resolved",
+        "waived"
+      ],
+      "transitions": [
+        {
+          "id": "investigate",
+          "label": "Investigate Exception",
+          "from": [
+            "open"
+          ],
+          "to": "investigating"
+        },
+        {
+          "id": "remediate",
+          "label": "Start Remediation",
+          "from": [
+            "investigating"
+          ],
+          "to": "remediating"
+        },
+        {
+          "id": "resolve",
+          "label": "Resolve Exception",
+          "from": [
+            "investigating",
+            "remediating"
+          ],
+          "to": "resolved"
+        },
+        {
+          "id": "waive",
+          "label": "Approve Waiver",
+          "from": [
+            "investigating"
+          ],
+          "to": "waived"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "exception-resolution-001",
+          "state": "open",
+          "reference": "ALZRESCAR-0001",
+          "subject": "Analyze Biomarkers — North Region",
+          "owner": "Avery Morgan",
+          "priority": "Low",
+          "dueDate": "2026-08-01",
+          "notes": "Demo exception resolution record for north region; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-002",
+          "state": "open",
+          "reference": "ALZRESCAR-0002",
+          "subject": "Analyze Biomarkers — Enterprise Account",
+          "owner": "Jordan Lee",
+          "priority": "Medium",
+          "dueDate": "2026-08-03",
+          "notes": "Demo exception resolution record for enterprise account; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-003",
+          "state": "open",
+          "reference": "ALZRESCAR-0003",
+          "subject": "Analyze Biomarkers — Quarterly Cycle",
+          "owner": "Taylor Brooks",
+          "priority": "High",
+          "dueDate": "2026-08-05",
+          "notes": "Demo exception resolution record for quarterly cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-004",
+          "state": "open",
+          "reference": "ALZRESCAR-0004",
+          "subject": "Analyze Biomarkers — Priority Queue",
+          "owner": "Morgan Chen",
+          "priority": "Critical",
+          "dueDate": "2026-08-07",
+          "notes": "Demo exception resolution record for priority queue; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-005",
+          "state": "open",
+          "reference": "ALZRESCAR-0005",
+          "subject": "Analyze Biomarkers — Operations Review",
+          "owner": "Riley Patel",
+          "priority": "Low",
+          "dueDate": "2026-08-09",
+          "notes": "Demo exception resolution record for operations review; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-006",
+          "state": "open",
+          "reference": "ALZRESCAR-0006",
+          "subject": "Analyze Biomarkers — Customer Request",
+          "owner": "Casey Nguyen",
+          "priority": "Medium",
+          "dueDate": "2026-08-11",
+          "notes": "Demo exception resolution record for customer request; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-007",
+          "state": "open",
+          "reference": "ALZRESCAR-0007",
+          "subject": "Analyze Biomarkers — Compliance Check",
+          "owner": "Cameron Diaz",
+          "priority": "High",
+          "dueDate": "2026-08-13",
+          "notes": "Demo exception resolution record for compliance check; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-008",
+          "state": "open",
+          "reference": "ALZRESCAR-0008",
+          "subject": "Analyze Biomarkers — Service Window",
+          "owner": "Drew Wilson",
+          "priority": "Critical",
+          "dueDate": "2026-08-15",
+          "notes": "Demo exception resolution record for service window; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-009",
+          "state": "open",
+          "reference": "ALZRESCAR-0009",
+          "subject": "Analyze Biomarkers — Quality Sample",
+          "owner": "Emerson Clark",
+          "priority": "Low",
+          "dueDate": "2026-08-17",
+          "notes": "Demo exception resolution record for quality sample; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-010",
+          "state": "open",
+          "reference": "ALZRESCAR-0010",
+          "subject": "Analyze Biomarkers — Management Review",
+          "owner": "Hayden Kim",
+          "priority": "Medium",
+          "dueDate": "2026-08-19",
+          "notes": "Demo exception resolution record for management review; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-011",
+          "state": "open",
+          "reference": "ALZRESCAR-0011",
+          "subject": "Analyze Biomarkers — Exception Follow-up",
+          "owner": "Jamie Rivera",
+          "priority": "High",
+          "dueDate": "2026-08-21",
+          "notes": "Demo exception resolution record for exception follow-up; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-012",
+          "state": "open",
+          "reference": "ALZRESCAR-0012",
+          "subject": "Analyze Biomarkers — Evidence Package",
+          "owner": "Kai Thompson",
+          "priority": "Critical",
+          "dueDate": "2026-08-23",
+          "notes": "Demo exception resolution record for evidence package; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-013",
+          "state": "open",
+          "reference": "ALZRESCAR-0013",
+          "subject": "Analyze Biomarkers — Planning Cycle",
+          "owner": "Logan Shah",
+          "priority": "Low",
+          "dueDate": "2026-08-25",
+          "notes": "Demo exception resolution record for planning cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-014",
+          "state": "open",
+          "reference": "ALZRESCAR-0014",
+          "subject": "Analyze Biomarkers — Performance Review",
+          "owner": "Parker Evans",
+          "priority": "Medium",
+          "dueDate": "2026-08-27",
+          "notes": "Demo exception resolution record for performance review; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-015",
+          "state": "open",
+          "reference": "ALZRESCAR-0015",
+          "subject": "Analyze Biomarkers — Final Verification",
+          "owner": "Quinn Murphy",
+          "priority": "High",
+          "dueDate": "2026-08-29",
+          "notes": "Demo exception resolution record for final verification; verify evidence and next action before completion."
+        }
+      ]
+    },
+    {
+      "id": "approval-control",
+      "title": "Analyze Protocol Approval Control",
+      "description": "Manage approval control for Analyze Protocol within Alzheimers Research Care Operations Hub, with explicit ownership, due dates, state transitions, and audit history.",
+      "fields": [
+        {
+          "key": "reference",
+          "label": "Reference",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "subject",
+          "label": "Analyze Protocol Subject",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "owner",
+          "label": "Owner",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "priority",
+          "label": "Priority",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+          ]
+        },
+        {
+          "key": "dueDate",
+          "label": "Due Date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "notes",
+          "label": "Operational Notes",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "states": [
+        "prepared",
+        "submitted",
+        "reviewing",
+        "approved",
+        "declined"
+      ],
+      "transitions": [
+        {
+          "id": "submit",
+          "label": "Submit for Approval",
+          "from": [
+            "prepared"
+          ],
+          "to": "submitted"
+        },
+        {
+          "id": "review",
+          "label": "Begin Approval Review",
+          "from": [
+            "submitted"
+          ],
+          "to": "reviewing"
+        },
+        {
+          "id": "approve",
+          "label": "Approve",
+          "from": [
+            "reviewing"
+          ],
+          "to": "approved"
+        },
+        {
+          "id": "decline",
+          "label": "Decline",
+          "from": [
+            "submitted",
+            "reviewing"
+          ],
+          "to": "declined"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "approval-control-001",
+          "state": "prepared",
+          "reference": "ALZRESCAR-0001",
+          "subject": "Analyze Protocol — North Region",
+          "owner": "Avery Morgan",
+          "priority": "Low",
+          "dueDate": "2026-08-01",
+          "notes": "Demo approval control record for north region; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-002",
+          "state": "prepared",
+          "reference": "ALZRESCAR-0002",
+          "subject": "Analyze Protocol — Enterprise Account",
+          "owner": "Jordan Lee",
+          "priority": "Medium",
+          "dueDate": "2026-08-03",
+          "notes": "Demo approval control record for enterprise account; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-003",
+          "state": "prepared",
+          "reference": "ALZRESCAR-0003",
+          "subject": "Analyze Protocol — Quarterly Cycle",
+          "owner": "Taylor Brooks",
+          "priority": "High",
+          "dueDate": "2026-08-05",
+          "notes": "Demo approval control record for quarterly cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-004",
+          "state": "prepared",
+          "reference": "ALZRESCAR-0004",
+          "subject": "Analyze Protocol — Priority Queue",
+          "owner": "Morgan Chen",
+          "priority": "Critical",
+          "dueDate": "2026-08-07",
+          "notes": "Demo approval control record for priority queue; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-005",
+          "state": "prepared",
+          "reference": "ALZRESCAR-0005",
+          "subject": "Analyze Protocol — Operations Review",
+          "owner": "Riley Patel",
+          "priority": "Low",
+          "dueDate": "2026-08-09",
+          "notes": "Demo approval control record for operations review; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-006",
+          "state": "prepared",
+          "reference": "ALZRESCAR-0006",
+          "subject": "Analyze Protocol — Customer Request",
+          "owner": "Casey Nguyen",
+          "priority": "Medium",
+          "dueDate": "2026-08-11",
+          "notes": "Demo approval control record for customer request; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-007",
+          "state": "prepared",
+          "reference": "ALZRESCAR-0007",
+          "subject": "Analyze Protocol — Compliance Check",
+          "owner": "Cameron Diaz",
+          "priority": "High",
+          "dueDate": "2026-08-13",
+          "notes": "Demo approval control record for compliance check; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-008",
+          "state": "prepared",
+          "reference": "ALZRESCAR-0008",
+          "subject": "Analyze Protocol — Service Window",
+          "owner": "Drew Wilson",
+          "priority": "Critical",
+          "dueDate": "2026-08-15",
+          "notes": "Demo approval control record for service window; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-009",
+          "state": "prepared",
+          "reference": "ALZRESCAR-0009",
+          "subject": "Analyze Protocol — Quality Sample",
+          "owner": "Emerson Clark",
+          "priority": "Low",
+          "dueDate": "2026-08-17",
+          "notes": "Demo approval control record for quality sample; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-010",
+          "state": "prepared",
+          "reference": "ALZRESCAR-0010",
+          "subject": "Analyze Protocol — Management Review",
+          "owner": "Hayden Kim",
+          "priority": "Medium",
+          "dueDate": "2026-08-19",
+          "notes": "Demo approval control record for management review; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-011",
+          "state": "prepared",
+          "reference": "ALZRESCAR-0011",
+          "subject": "Analyze Protocol — Exception Follow-up",
+          "owner": "Jamie Rivera",
+          "priority": "High",
+          "dueDate": "2026-08-21",
+          "notes": "Demo approval control record for exception follow-up; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-012",
+          "state": "prepared",
+          "reference": "ALZRESCAR-0012",
+          "subject": "Analyze Protocol — Evidence Package",
+          "owner": "Kai Thompson",
+          "priority": "Critical",
+          "dueDate": "2026-08-23",
+          "notes": "Demo approval control record for evidence package; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-013",
+          "state": "prepared",
+          "reference": "ALZRESCAR-0013",
+          "subject": "Analyze Protocol — Planning Cycle",
+          "owner": "Logan Shah",
+          "priority": "Low",
+          "dueDate": "2026-08-25",
+          "notes": "Demo approval control record for planning cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-014",
+          "state": "prepared",
+          "reference": "ALZRESCAR-0014",
+          "subject": "Analyze Protocol — Performance Review",
+          "owner": "Parker Evans",
+          "priority": "Medium",
+          "dueDate": "2026-08-27",
+          "notes": "Demo approval control record for performance review; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-015",
+          "state": "prepared",
+          "reference": "ALZRESCAR-0015",
+          "subject": "Analyze Protocol — Final Verification",
+          "owner": "Quinn Murphy",
+          "priority": "High",
+          "dueDate": "2026-08-29",
+          "notes": "Demo approval control record for final verification; verify evidence and next action before completion."
+        }
+      ]
+    },
+    {
+      "id": "performance-reporting",
+      "title": "Approve Performance Reporting",
+      "description": "Manage performance reporting for Approve within Alzheimers Research Care Operations Hub, with explicit ownership, due dates, state transitions, and audit history.",
+      "fields": [
+        {
+          "key": "reference",
+          "label": "Reference",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "subject",
+          "label": "Approve Subject",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "owner",
+          "label": "Owner",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "priority",
+          "label": "Priority",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+          ]
+        },
+        {
+          "key": "dueDate",
+          "label": "Due Date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "notes",
+          "label": "Operational Notes",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "states": [
+        "requested",
+        "preparing",
+        "ready",
+        "delivered",
+        "failed"
+      ],
+      "transitions": [
+        {
+          "id": "prepare",
+          "label": "Prepare Report",
+          "from": [
+            "requested",
+            "failed"
+          ],
+          "to": "preparing"
+        },
+        {
+          "id": "ready",
+          "label": "Mark Ready",
+          "from": [
+            "preparing"
+          ],
+          "to": "ready"
+        },
+        {
+          "id": "deliver",
+          "label": "Record Delivery",
+          "from": [
+            "ready"
+          ],
+          "to": "delivered"
+        },
+        {
+          "id": "fail",
+          "label": "Record Failure",
+          "from": [
+            "preparing"
+          ],
+          "to": "failed"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "performance-reporting-001",
+          "state": "requested",
+          "reference": "ALZRESCAR-0001",
+          "subject": "Approve — North Region",
+          "owner": "Avery Morgan",
+          "priority": "Low",
+          "dueDate": "2026-08-01",
+          "notes": "Demo performance reporting record for north region; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-002",
+          "state": "requested",
+          "reference": "ALZRESCAR-0002",
+          "subject": "Approve — Enterprise Account",
+          "owner": "Jordan Lee",
+          "priority": "Medium",
+          "dueDate": "2026-08-03",
+          "notes": "Demo performance reporting record for enterprise account; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-003",
+          "state": "requested",
+          "reference": "ALZRESCAR-0003",
+          "subject": "Approve — Quarterly Cycle",
+          "owner": "Taylor Brooks",
+          "priority": "High",
+          "dueDate": "2026-08-05",
+          "notes": "Demo performance reporting record for quarterly cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-004",
+          "state": "requested",
+          "reference": "ALZRESCAR-0004",
+          "subject": "Approve — Priority Queue",
+          "owner": "Morgan Chen",
+          "priority": "Critical",
+          "dueDate": "2026-08-07",
+          "notes": "Demo performance reporting record for priority queue; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-005",
+          "state": "requested",
+          "reference": "ALZRESCAR-0005",
+          "subject": "Approve — Operations Review",
+          "owner": "Riley Patel",
+          "priority": "Low",
+          "dueDate": "2026-08-09",
+          "notes": "Demo performance reporting record for operations review; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-006",
+          "state": "requested",
+          "reference": "ALZRESCAR-0006",
+          "subject": "Approve — Customer Request",
+          "owner": "Casey Nguyen",
+          "priority": "Medium",
+          "dueDate": "2026-08-11",
+          "notes": "Demo performance reporting record for customer request; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-007",
+          "state": "requested",
+          "reference": "ALZRESCAR-0007",
+          "subject": "Approve — Compliance Check",
+          "owner": "Cameron Diaz",
+          "priority": "High",
+          "dueDate": "2026-08-13",
+          "notes": "Demo performance reporting record for compliance check; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-008",
+          "state": "requested",
+          "reference": "ALZRESCAR-0008",
+          "subject": "Approve — Service Window",
+          "owner": "Drew Wilson",
+          "priority": "Critical",
+          "dueDate": "2026-08-15",
+          "notes": "Demo performance reporting record for service window; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-009",
+          "state": "requested",
+          "reference": "ALZRESCAR-0009",
+          "subject": "Approve — Quality Sample",
+          "owner": "Emerson Clark",
+          "priority": "Low",
+          "dueDate": "2026-08-17",
+          "notes": "Demo performance reporting record for quality sample; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-010",
+          "state": "requested",
+          "reference": "ALZRESCAR-0010",
+          "subject": "Approve — Management Review",
+          "owner": "Hayden Kim",
+          "priority": "Medium",
+          "dueDate": "2026-08-19",
+          "notes": "Demo performance reporting record for management review; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-011",
+          "state": "requested",
+          "reference": "ALZRESCAR-0011",
+          "subject": "Approve — Exception Follow-up",
+          "owner": "Jamie Rivera",
+          "priority": "High",
+          "dueDate": "2026-08-21",
+          "notes": "Demo performance reporting record for exception follow-up; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-012",
+          "state": "requested",
+          "reference": "ALZRESCAR-0012",
+          "subject": "Approve — Evidence Package",
+          "owner": "Kai Thompson",
+          "priority": "Critical",
+          "dueDate": "2026-08-23",
+          "notes": "Demo performance reporting record for evidence package; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-013",
+          "state": "requested",
+          "reference": "ALZRESCAR-0013",
+          "subject": "Approve — Planning Cycle",
+          "owner": "Logan Shah",
+          "priority": "Low",
+          "dueDate": "2026-08-25",
+          "notes": "Demo performance reporting record for planning cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-014",
+          "state": "requested",
+          "reference": "ALZRESCAR-0014",
+          "subject": "Approve — Performance Review",
+          "owner": "Parker Evans",
+          "priority": "Medium",
+          "dueDate": "2026-08-27",
+          "notes": "Demo performance reporting record for performance review; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-015",
+          "state": "requested",
+          "reference": "ALZRESCAR-0015",
+          "subject": "Approve — Final Verification",
+          "owner": "Quinn Murphy",
+          "priority": "High",
+          "dueDate": "2026-08-29",
+          "notes": "Demo performance reporting record for final verification; verify evidence and next action before completion."
+        }
+      ]
+    }
+  ],
+  "resources": []
+}
